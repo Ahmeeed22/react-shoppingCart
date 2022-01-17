@@ -17,28 +17,21 @@
 
 }
 
-header{
-  grid-area: header;
-  background-color: #2a5ea5;
-  color:#fff;
- display: flex;
- justify-content: center;
- align-items: center;
-font:20px ;  
 
-}
 
 main{
   grid-area: main;
-  background-color: aqua;
-}
-footer{
-  grid-area: footer;
-  background-color: #2a5ea5;
-  color:#fff;
- display: flex;
- justify-content: center;
- align-items: center;
-font:20px ;  
 
+}
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.wrapper .productsEl{
+  width: 68%;
+}
+.wrapper .filterEl{
+  width:30% ;
 }
