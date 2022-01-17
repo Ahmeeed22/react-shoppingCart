@@ -1,0 +1,35 @@
+[
+    {
+       "id":"id1",
+       "title":"computer",
+       "imageUrl":"/images/project-1.jpg" ,
+       "desc":"this is product one",
+       "price":30,
+       "sizes":["S","M"]
+    },
+    {
+        "id":"id2",
+        "title":"computer2",
+        "imageUrl":"/images/project-2.jpg" ,
+        "desc":"this is product TWO",
+        "price":40,
+        "sizes":["SM","M"]
+     },
+     {
+        "id":"id3",
+        "title":"computer3",
+        "imageUrl":"/images/project-3.jpg" ,
+        "desc":"this is product THREE",
+        "price":45,
+        "sizes":["XL","M"]
+     },
+    {
+                
+        "id":"id4",
+        "title":"computer4",
+        "imageUrl":"/images/project-4.jpg" ,
+        "desc":"this is product FOUR",
+        "price":34,
+        "sizes":["S","L"]
+    }
+]
