@@ -1,8 +1,10 @@
 import "../../css/Header/Header.css"
+import "../../words"
+import { words } from "../../words";
 function Header(){
     return(
         <header>
-              Shopping Cart
+              {words.headerTitle}
             </header> 
     )
 }

@@ -1,9 +1,10 @@
 import "../../css/Footer/Footer.css"
+import { words } from "../../words";
 
 function Footer(){
     return(
         <footer>
-            &copy; copyWrite Ahmed Zezo 2021
+            {words.footerTitle}
       </footer>
     )
 }
