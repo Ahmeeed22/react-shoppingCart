@@ -18,7 +18,7 @@
      {
         "id":"id3",
         "title":"computer3",
-        "imageUrl":"/images/project-3.jpg" ,
+        "imageUrl":"/images/project-6.jpg" ,
         "desc":"this is product THREE",
         "price":45,
         "sizes":["XL","M"]
@@ -27,7 +27,7 @@
                 
         "id":"id4",
         "title":"computer4",
-        "imageUrl":"/images/project-4.jpg" ,
+        "imageUrl":"/images/project-8.jpg" ,
         "desc":"this is product FOUR",
         "price":34,
         "sizes":["S","L"]
