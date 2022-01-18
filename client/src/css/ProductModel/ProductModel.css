@@ -1,0 +1,11 @@
+Modal {
+  position: relative;
+}
+
+.closeItem {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
