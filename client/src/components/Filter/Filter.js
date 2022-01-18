@@ -2,6 +2,7 @@ import React from 'react'
 import '../../css/Filter/Filter.css'
 
 function Filter(props) {
+
     return (
         
             <div className="filterEl">
@@ -9,7 +10,7 @@ function Filter(props) {
                 <div className='num-of-products'>Number of products 4</div>
                 <div className='filter-by-size'>
                     <span>Filter</span>
-                    <select className='filter-select'>
+                    <select value={props.size} className='filter-select' onChange={props.handleFilterBySize}>
                         <option value='ALL'>ALL</option>
                         <option value='XS'>XS</option>
                         <option value='L'>L</option>
@@ -18,11 +19,11 @@ function Filter(props) {
                         
                     </select>
                 </div>
-                <div className='filter-by-size'>
+                <div className='filter-by-order'>
                     <span>Order</span>
-                    <select className='filter-select'>
+                    <select value={props.sort} className='filter-select' onChange={props.handelFilterByOrder}>
                         <option value='latest'>latest</option>
-                        <option value='lower'>Lower</option>
+                        <option value='lowest'>Lower</option>
                         <option value='highest'>Highest</option>
                         
                         

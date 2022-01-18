@@ -13,7 +13,7 @@
         "imageUrl":"/images/project-2.jpg" ,
         "desc":"this is product TWO",
         "price":40,
-        "sizes":["SM","M"]
+        "sizes":["XS","M"]
      },
      {
         "id":"id3",
