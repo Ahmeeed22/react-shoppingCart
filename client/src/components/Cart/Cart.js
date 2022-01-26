@@ -13,7 +13,7 @@ function Cart(props) {
                             <img src={item.imageUrl} alt={item.title}/>
                             <div className='cart-info'>
                                 <div>
-                                    <p>Title: {item.title}</p> 
+                                    <p>Title: {item.title}</p>
                                     <p>QTY : {item.qty}</p>
                                     <p>Price : ${item.price}</p>
                                 </div>
