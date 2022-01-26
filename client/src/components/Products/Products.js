@@ -11,6 +11,7 @@ import ProductModel from '../ProductModel/ProductModel';
      const closeModal=()=>{
          setProduct(false)
      }
+  
     return (
         
              <div className="productsEl">{props.products.map(product=>(
@@ -23,7 +24,7 @@ import ProductModel from '../ProductModel/ProductModel';
                                 <span>${product.price}</span>
                                 
                             </div>
-                            <button>Add To Cart</button>
+                            <button onClick={()=>props.addToCart(product)}>Add To Cart</button>
 
              
                 </div>
